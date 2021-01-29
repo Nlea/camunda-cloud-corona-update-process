@@ -32,6 +32,6 @@ The process runs in Camunda cloud based on the time start event and will start a
 
 ### Java Workers
 - [Choose Activity worker](https://github.com/Nlea/camunda-cloud-worker-choose-activity)
-- [Set celebration message worker](https://github.com/Nlea/camunda-cloud-worker-send-Telegram-message)
+- [Set celebration message worker](https://github.com/Nlea/camunda-cloud-worker-set-celebration-message)
 
 
