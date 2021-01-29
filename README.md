@@ -19,10 +19,10 @@ If you do so, you have to set the technical attributes yourself
 ![Service task](/img/set-service-task-type.png)
 
 - Make sure you set expressions on the sequence flows after the XOR gateway. The expression language used is [Feel](https://docs.camunda.io/docs/0.25/product-manuals/zeebe/reference/expressions/).
-![Sequence flows after XOR](/img/set-expression-at-sequence-flow.png = 250x)
+<img src="https://raw.githubusercontent.com/Nlea/camunda-cloud-corona-update-process/main/img/set-expression-at-sequence-flow.png" width="100">
 
 - Make sure to configure the timer.
-![Timer start event](/img/set-timer-event.png = 150x)
+![Timer start event](/img/set-timer-event.png)
 
 The process runs in Camunda cloud based on the time start event and will start a new workflow instance every 24 hours. In order to run the process 4 Workers are needed. The workers subscribe to the topic that has been defined in the "type" field. The workers are independ from each other and written in diffrent languages. You can find them here: 
 
