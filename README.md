@@ -18,7 +18,7 @@ If you do so, you have to set the technical attributes yourself
 - Make sure to configure the service tasks with a type. This type is later important to connect the task workers
 <img src="https://raw.githubusercontent.com/Nlea/camunda-cloud-corona-update-process/main/img/set-service-task-type.png" width="400">
 
-- Make sure you set expressions on the sequence flows after the XOR gateway. The expression language used is [Feel](https://docs.camunda.io/docs/0.25/product-manuals/zeebe/reference/expressions/).
+- Make sure you set expressions on the sequence flows after the XOR gateway. The expression language used is [Feel](https://docs.camunda.io/docs/product-manuals/concepts/expressions/).
 <img src="https://raw.githubusercontent.com/Nlea/camunda-cloud-corona-update-process/main/img/set-expression-at-sequence-flow.png" width="400">
 
 - Make sure to configure the timer.
