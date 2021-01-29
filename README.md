@@ -16,13 +16,13 @@ There are three options how you can deploy the model:
 - :three: If you just want to have a quick start you can also use the Camunda Cloud console to rebuilt this model quick (it is a nice and easy way to get started but if you probably won't use the modeling tool for production later)
 If you do so, you have to set the technical attributes yourself
 - Make sure to configure the service tasks with a type. This type is later important to connect the task workers
-![Service task](/img/set-service-task-type.png | width=100)
+![Service task](/img/set-service-task-type.png | width=250)
 
 - Make sure you set expressions on the sequence flows after the XOR gateway. The expression language used is [Feel](https://docs.camunda.io/docs/0.25/product-manuals/zeebe/reference/expressions/).
 ![Sequence flows after XOR](/img/set-expression-at-sequence-flow.png | width=100)
 
 - Make sure to configure the timer.
-![Timer start event](/img/set-timer-event.png | width=100)
+![Timer start event](/img/set-timer-event.png =200x)
 
 The process runs in Camunda cloud based on the time start event and will start a new workflow instance every 24 hours. In order to run the process 4 Workers are needed. The workers subscribe to the topic that has been defined in the "type" field. The workers are independ from each other and written in diffrent languages. You can find them here: 
 
