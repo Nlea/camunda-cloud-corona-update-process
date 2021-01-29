@@ -2,8 +2,8 @@
 This project contains a BPMN file with a workflow. The workflow is deployed to [Camunda Cloud](https://console.cloud.camunda.io).
 ![Corona Update Process](/img/corona-update-process.png)
 
-You can find all the information [here](https://docs.camunda.io/docs/guides/) how to set up an own cluster and get the credentials for your workers and clients to connect to Camunda cloud.
 
+In order to run it you need to create an [camunda cloud account]( https://accounts.cloud.camunda.io/signup#). Once you have an account you can set up an own [cluster](https://docs.camunda.io/docs/guides/getting-started/create-cluster)
 
 ## Deploy the model: 
 
